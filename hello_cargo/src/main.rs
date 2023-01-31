@@ -31,7 +31,7 @@ fn main() {
         sign_in_cout: 1,
     };
 
-    let black = Color(0,0,0)
+    let black = Color(0,0,0);
 
 
     let x : i32 = test();
