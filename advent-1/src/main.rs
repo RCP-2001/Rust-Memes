@@ -26,6 +26,13 @@ fn main() {
         Err(error) => panic!("At the disco: {:?} . Sadge. Filename was: {} ---", error, file_name),
     };
     
+    let mut elf = Vec::new();
+    elf.push(1);
+    for i in 0..10{
+        elf.pop()
+    }
+
+
     
 
     let test_line = io::BufReader::new(input_file).lines();
